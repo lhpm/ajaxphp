@@ -1,0 +1,21 @@
+body {padding-top: 110px}
+nav .nombre-plugin {font-size: 20px}
+nav .link-post {padding-top: 5px}
+
+#loading_spinner {display: none;}
+
+.formFactorial {width: 50%; display: block; margin: auto}
+.formFactorial input {height: 50px; -webkit-border-radius: 12px 0 0 0; border-radius: 12px 0 0 0; margin-bottom: 15px; border-bottom: 3px solid #01338D}
+.formFactorial input:focus {border-color: #ccc; border-bottom:1px solid #ccc; box-shadow: -webkit-box-shadow:inset 0 0 3px 3px #BDBDBD; box-shadow:inset 0 0 3px 3px #BDBDBD;}
+
+.formFactorial button {background: #01338D; padding: 25px; display: block; margin: auto; margin-bottom: 15px}
+.formFactorial button:hover {background: #0072C6}
+.formFactorial button:focus, .formFactorial button:active:focus {outline: none; background: #0072C6}
+
+#resultado, .gifCarga {text-align: center}
+#resultado {font-size: 20px}
+
+
+@media (max-width: 728px) {
+	.formFactorial {width: 100%;}
+}
